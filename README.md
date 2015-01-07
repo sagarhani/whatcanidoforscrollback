@@ -1,15 +1,15 @@
 <<<<<<< HEAD
-whatcanidoforfsmk
+whatcanidoforscrollback
 =================
 
-Ask not what FSMK can do for you but what you can do for FSMK.  http://jee1mr.github.io/whatcanidoforfsmk
+Ask not what Scrollback can do for you but what you can do for Scrollback.  http://sagarhani.github.io/whatcanidoforscrollback
 
 
-This project is a place for people to help get involved with Free Software Movement of Karnataka.
+This project is a place for people to help get involved with Scrollback.
 
 ## Installing Locally
-    git clone https://github.com/jee1mr/whatcanidoforfsmk
-    cd whatcanidoforfsmk
+    git clone https://github.com/sagarhani/whatcanidoforscrollback
+    cd whatcanidoforscrollback
 Open `index.html` in your favourite browser!
 
 
