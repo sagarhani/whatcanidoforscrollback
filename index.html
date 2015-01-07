@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link rel="stylesheet" type="text/css" href="style.css" title="Default">
+  <link rel="alternate stylesheet" type="text/css" href="plain.css" title="Bird's Eye View">
+  <script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="foopy.js"></script>
+  <script type="text/javascript" src="l10n.js"></script>
+  <link rel="resource" type="application/l10n" href="locales.ini" />
+  <link href="tabzilla-min.css" rel="stylesheet"/>
+  <title>What can I do for Scrollback</title>
+  <!-- #responses div elements has display:none by default in case if js is disabled -->
+  <script>
+    $(document).ready(function() {
+        $('#responses div').show();
+    });
+  </script>
+  <!-- end of manipulation if js is disabled -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-35433268-58', 'whatcanidoformozilla.org');
+    ga('send', 'pageview');
+  </script>
+</head>
+<body>
+
+  
+  <div id="lang">
+    <span id="lang-selection" data-l10n-id="lang-selection">Language:</span>
+    <select>
+      <option selected value='en'>en</option>
+      <option value='hi-IN'>hi-IN</option>
+    </select>
+  </div>
+
+  <div id="wrapper">
+    <div class="group" id="progornoprog">
+      <span class="question" data-l10n-id="progquestion"></span>
+      <ul class="choices">
+        <li next-group="Writing"><span data-l10n-id="Writing"></span></li>
+        <li next-group="Graphics work"><span data-l10n-id="Graphics work"></span></li>
+        <li next-group="Coding"><span data-l10n-id="Coding"></span></li>
+        <li next-group="PR and Marketing"><span data-l10n-id="PR and Marketing"></span></li>
+      </ul>
+    </div>
+
+    <div class="group" id="Graphics work">
+      <span class="question" data-l10n-id="Graphics work-intro"></span>
+      <ul class="choices">
+      <li target="https://github.com/fsmk/CS-VTU-Lab-Manual" data-choice-id="vtu-lab-manual">Design Posters, Facebook Cover Pictures, T-Shirts
+          <div class="extra" data-l10n-id="vtumanual-extra"></div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="group" id="PR and Marketing">
+      <span class="question" data-l10n-id="PR and Marketing-intro"></span>
+      <ul class="choices">
+        <li target="http://fsmk.org" data-choice-id="donate">
+        Share Scrollback posts with your friends on Facebook, Twitter, and other Social Platforms
+          <div class="extra" data-l10n-id="cc-donate-extra"></div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="group" id="Coding">
+    <span class="question" data-l10n-id="question"></span>
+      <ul class="choices">
+        <li next-group="ss">Sunday School</li>
+        <li next-group="contri">Contribute</li>
+        <li next-group="comm-center".</li>
+      </ul>
+    </div>
+
+   
+
+    <div class="group" id="Writing">
+      <span class="question" data-l10n-id="question"></span>
+      <ul class="choices">
+        <li next-group="glug">GLUG</li>
+        <li next-group="ss">Sunday School</li>
+        <li next-group="contri">Contribute</li>
+      </ul>
+    </div>
+
+
+
+    <div class="group" id="glug">
+      <span class="question" data-l10n-id="glug"></span>
+      <ul class="choices">
+        <li target="http://fsmk.org/?q=gnu-linux-users-group" data-choice-id="form-glug">
+        Form a new GLUG
+          <div class="extra" data-l10n-id="form-glug-extra"></div>
+        </li>
+        <li target="http://fsmk.org/?q=gnu-linux-users-group" data-choice-id="join-glug"> Join an existing GLUG
+        <div class="extra" data-l10n-id="join-glug-extra"></div>
+      </ul>
+    </div>
+
+    
+    <div class="group" id="ss">
+      <span class="question" data-l10n-id="ss-intro"></span>
+      <ul class="choices">
+
+        <li target="http://fsmk.org/?q=sunday-school-email-encryption" data-choice-id="sunday-school-teach">Teach
+          <div class="extra" data-l10n-id="ss-teach-extra"></div>
+        </li>
+
+        <li target="http://fsmk.org/?q=sunday-school-email-encryption" data-choice-id="sunday-school-learn">Learn
+          <div class="extra" data-l10n-id="ss-learn-extra"></div>
+        </li>
+
+      </ul>
+    </div>
+
+    <div class="group" id="contri">
+      <span class="question" data-l10n-id="contri-intro"></span>
+      <ul class="choices">
+        <li target="https://github.com/fsmk/rasi" data-choice-id="project-rasi">Project Rasi
+          <div class="extra" data-l10n-id="rasi-extra"></div>
+        </li>
+        <li target="https://github.com/fsmk/CS-VTU-Lab-Manual" data-choice-id="vtu-lab-manual">VTU Lab Manual
+          <div class="extra" data-l10n-id="vtumanual-extra"></div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="group" id="comm-center">
+      <span class="question" data-l10n-id="cc-intro"></span>
+      <ul class="choices">
+        <li target="http://fsmk.org" data-choice-id="donate">
+        Donate your old PCs to the community center
+          <div class="extra" data-l10n-id="cc-donate-extra"></div>
+        </li>
+        <li target="http://fsmk.org" data-choice-id="teach-cc">Teach under-privileged kids in your free time
+          <div class="extra" data-l10n-id="cc-teach-extra"></div>
+        </li>
+      </ul>
+    </div>
+
+   
+
+    
+
+    <div id="responses">
+      <div id="ok"><a href="javascript:" data-l10n-id="more"></a></div>
+      <div id="next">
+        <a href="javascript:">
+          <span data-l10n-id="negative1" class="negative"></span>
+          <span data-l10n-id="negative2" class="negative"></span>
+          <span data-l10n-id="negative3" class="negative"></span>
+          <span data-l10n-id="negative4" class="negative"></span>
+          <span data-l10n-id="negative5" class="negative"></span>
+          <span data-l10n-id="negative6" class="negative"></span>
+        </a>
+      </div>
+      <div id="back"><a href="javascript:" data-l10n-id="back"></a></div>
+      <!-- message showing only if javascript disabled -->
+      <noscript>
+          <span>Please enable JavaScript in your browser!</span>
+      </noscript>
+      <!-- end of noscript message -->
+    </div>
+
+    <div id="footer" data-l10n-id="credits"></div>
+  </div>
+</body>
+</html>
