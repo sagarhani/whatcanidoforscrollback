@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 whatcanidoforscrollback
 =================
 
@@ -21,6 +20,3 @@ Josh Matthews <josh@joshmatthews.net>
 
 Other contributors listed at https://github.com/jdm/asknot/contributors
 =======
-whatcanidoforscrollback
-=======================
->>>>>>> ab8e9734a8eb7d4f62f7396dd5b1d4a597cb78b7
