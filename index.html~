@@ -59,8 +59,8 @@
       </ul>
     </div>
 
-    <div class="group" id="Good at Marketing">
-      <span class="question" data-l10n-id="Good at Marketing-intro"></span>
+    <div class="group" id="Good at PR and Marketing">
+      <span class="question" data-l10n-id="Good at PR and Marketing-intro"></span>
       <ul class="choices">
         <li target="http://fsmk.org" data-choice-id="donate">
         Share Scrollback posts with your friends on Facebook, Twitter, and other Social Platforms
@@ -98,7 +98,7 @@
         Form a new GLUG
           <div class="extra" data-l10n-id="form-glug-extra"></div>
         </li>
-        <li target="http://fsmk.org/?q=gnu-linux-users-group" data-choice-id="join-glug"> Join an existing GLUG
+        <li target="http://fsmk.org/?q=gnu-linux-users-group" data-choice-id="join-glug"> Under Construction
         <div class="extra" data-l10n-id="join-glug-extra"></div>
       </ul>
     </div>
@@ -108,11 +108,11 @@
       <span class="question" data-l10n-id="ss-intro"></span>
       <ul class="choices">
 
-        <li target="http://fsmk.org/?q=sunday-school-email-encryption" data-choice-id="sunday-school-teach">Teach
+        <li target="http://fsmk.org/?q=sunday-school-email-encryption" data-choice-id="sunday-school-teach">Under Construction
           <div class="extra" data-l10n-id="ss-teach-extra"></div>
         </li>
 
-        <li target="http://fsmk.org/?q=sunday-school-email-encryption" data-choice-id="sunday-school-learn">Learn
+        <li target="http://fsmk.org/?q=sunday-school-email-encryption" data-choice-id="sunday-school-learn">Under Construction
           <div class="extra" data-l10n-id="ss-learn-extra"></div>
         </li>
 
@@ -122,10 +122,10 @@
     <div class="group" id="contri">
       <span class="question" data-l10n-id="contri-intro"></span>
       <ul class="choices">
-        <li target="https://github.com/fsmk/rasi" data-choice-id="project-rasi">Project Rasi
+        <li target="https://github.com/fsmk/rasi" data-choice-id="project-rasi">.
           <div class="extra" data-l10n-id="rasi-extra"></div>
         </li>
-        <li target="https://github.com/fsmk/CS-VTU-Lab-Manual" data-choice-id="vtu-lab-manual">VTU Lab Manual
+        <li target="https://github.com/fsmk/CS-VTU-Lab-Manual" data-choice-id="vtu-lab-manual">Under Construction
           <div class="extra" data-l10n-id="vtumanual-extra"></div>
         </li>
       </ul>
@@ -135,10 +135,10 @@
       <span class="question" data-l10n-id="cc-intro"></span>
       <ul class="choices">
         <li target="http://fsmk.org" data-choice-id="donate">
-        Donate your old PCs to the community center
+	Under Construction
           <div class="extra" data-l10n-id="cc-donate-extra"></div>
         </li>
-        <li target="http://fsmk.org" data-choice-id="teach-cc">Teach under-privileged kids in your free time
+        <li target="http://fsmk.org" data-choice-id="teach-cc">Under Construction
           <div class="extra" data-l10n-id="cc-teach-extra"></div>
         </li>
       </ul>
